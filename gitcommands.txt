@@ -1,0 +1,4 @@
+ls --> to list all the files in the repository
+ls -a OR ls -Force (in Windows)  --> to list all the hidden files
+
+git status --> display the state of the code
