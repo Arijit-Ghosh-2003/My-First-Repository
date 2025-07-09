@@ -1,4 +1,28 @@
 ls --> to list all the files in the repository
 ls -a OR ls -Force (in Windows)  --> to list all the hidden files
 
-git status --> display the state of the code
+git status --> display the state of the code. type of git status files -M/A/C/U
+
+git clone <-repo link-> --> clone a repository on our local machine
+
+git add <-file name->  --> to add a changed file in the network
+
+git add . --> to add all the changed files
+
+git commit -m "message" --> to record a changed
+
+git commit --> opens a text editor where detailed message can be written 
+
+git commit -am 'quick message' --> skip add and commit
+
+git commit -amend -m 'Updayt' --> amend the last commit
+
+git push origin main --> upload local repo to remote repo
+
+git init -> create new git repo from local repo
+git remote add origin <-link->
+git remote -v
+git branch
+git branch -M main
+git push origin main
+
